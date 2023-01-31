@@ -18,6 +18,9 @@ class PushNotificationApiController extends Controller
                 "body" => $request->body,
             ]
         ];
+        if($serverKey ==null){
+            return response()->json('server key missing , please add SERVER_KEY in env', 500);
+        }
         $encodedData = json_encode($data);
         $headers = [
             'Authorization:key=' . $serverKey,
