@@ -1,6 +1,6 @@
 <?php
-use Fnnaeem1881\Push_notification\Http\Controllers\Api\PushNotificationApiController;
 use Illuminate\Support\Facades\Route;
+use Nrbsolution\Push_notification\Http\Controllers\Api\PushNotificationApiController;
 
 
 // Route::group(['prefix'=>'api'], function () {
