@@ -1,0 +1,26 @@
+{
+    "name": "fnnaeem1881/push_notification",
+    "description": "Laravel Package to send push notifications to Android and IOS devices",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehedi Hasan",
+            "email": "77448606+fnnaeem1881@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Fnnaeem1881\\Push_notification\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fnnaeem1881\\Push_notification\\PushNotificationServiceProvider"
+            ]
+        }
+    }
+}
