@@ -1,6 +1,6 @@
 <?php
 
-namespace Fnnaeem1881\Push_notification\Http\Controllers\Api;
+namespace Nrbsolution\Push_notification\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 

@@ -1,24 +1,24 @@
 {
-    "name": "fnnaeem1881/push_notification",
+    "name": "nrbsolution/push_notification",
     "description": "Laravel Package to send push notifications to Android and IOS devices",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "Mehedi Hasan",
+            "name": "NRB Solution",
             "email": "77448606+fnnaeem1881@users.noreply.github.com"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "Fnnaeem1881\\Push_notification\\": "src/"
+            "Nrbsolution\\Push_notification\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Fnnaeem1881\\Push_notification\\PushNotificationServiceProvider"
+                "Nrbsolution\\Push_notification\\PushNotificationServiceProvider"
             ]
         }
     }

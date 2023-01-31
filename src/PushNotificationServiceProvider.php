@@ -1,6 +1,6 @@
 <?php
 
-namespace Fnnaeem1881\Push_notification;
+namespace Nrbsolution\Push_notification;
 
 use Illuminate\Support\ServiceProvider;
 
