@@ -9,6 +9,8 @@
             "email": "77448606+fnnaeem1881@users.noreply.github.com"
         }
     ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {},
     "autoload": {
         "psr-4": {
