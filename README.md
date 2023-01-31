@@ -1,4 +1,4 @@
-# Push Notification Firebase
+# Laravel package for Firebase Notification
 Laravel Package to send push notifications to Android and IOS devices
 
 
@@ -8,7 +8,7 @@ Laravel Package to send push notifications to Android and IOS devices
 Run the command below to install via Composer
 
 ```shell
-composer require fnnaeem1881/push_notification
+composer require nrbsolution/push_notification
 ```
 
 ## Getting Started ##
